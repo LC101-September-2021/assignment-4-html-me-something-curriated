@@ -1,1 +1,82 @@
-/* Write your CSS here! */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Yeseva+One&display=swap');
+
+body {
+    margin: 8px;
+    display: block;
+    max-width: 1024px;
+    font-family: 'M PLUS 1', sans-serif;
+    background-color: #2B2D42;
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Yeseva One', cursive;
+    font-stretch: extra-expanded;
+    font-size: 1.5em;
+    text-shadow: 2px 2px #2B2D42, 3px 3px #ef5757;
+}
+
+#profile-photo {
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#introHeading {
+    background-color: #ef5757;
+    color: #f8deb5;
+    border-radius: .3em;
+    padding: 10px;
+}
+
+#mainHeading {
+    background-color: #f8deb5;
+    color: #ef5757;
+    border-radius: .4em;
+    padding: 10px;
+}
+
+article {
+    border: 5px solid #6B705C;
+    border-radius: 30px;
+    background: #6B705C;
+    color: #f8deb5;
+    margin-bottom: 1.7rem;
+    padding: 20px;
+}
+
+.funParagraph {
+    color: #6B705C !important;
+    background: #f8deb5 !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+}
+
+}
+
+.photo-grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.photo-grid img {
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+footer {
+    text-align: center;
+}
+
+#instagram-icon img {
+    width: 35px;
+    background-color: transparent;
+}
